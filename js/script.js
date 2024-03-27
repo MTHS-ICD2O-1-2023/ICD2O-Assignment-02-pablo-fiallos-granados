@@ -9,5 +9,5 @@ function enterClicked() {
 
   // output
   document.getElementById("user-info").innerHTML =
-    "V = " + (4/3 * Math.PI * radius**3) + "u<sup>3</sup>"
+    "V = " + (4/3 * Math.PI * radius**3).toFixed(2) + "u<sup>3</sup>"
 }
